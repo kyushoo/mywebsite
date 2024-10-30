@@ -1,5 +1,112 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://pro.fontawesome.com/releases/v5.13.1/css/all.css" rel="stylesheet">
+  <title>tema</title>
+</head>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    transition: background 0.5s ease;
+  }
+
+  .mode {
+    background: #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    transform: scale(1.2);
+    position: relative;
+    transition: background 0.5s ease;
+  }
+
+  .mode_sun {
+    width: 25px;
+    height: 25px;
+    background-image: url("sun.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .mode_moon {
+    width: 25px;
+    height: 25px;
+    background-image: url("moon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .mode_ball {
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #fff;
+    left: 5px;
+    transition: all 0.5s ease;
+  }
+</style>
+
+<body>
+  <center>
+    <h1 class="saa"><i style="transition: background 0.5s ease; color: red;" class="far fa-fire"></i> Mode by shadow</h1>
+    <br>
+  </center>
+
+
+
+
+  <div class="mode">
+    <span style="color: ghostwhite;" class="mode_moon"></span>
+    <span style="color: orangered;" class="mode_sun"></span>
+    <span id="ball" class="mode_ball"></span>
+  </div>
+
+
+
+  <noscript>
+
+    <center>
+      <img src="img/dizzy-robot.png">
+
+
+      <h1 style="color: red; font-size: 35px;">Sizin brauzerinizdə JavaScript kodları deaktif edilib.
+    </center>
+  </noscript>
+
+  <br>
+  <footer>
+    <div class="sh" style="width: 360px; background: black; font-size: 20px;  transition: background 0.5s ease;">
+
+      <center>
+        <a style="text-decoration: none;" href="index.html">
+          <h4 class="haa" style="color: white; transition: background 0.5s ease;">By Shadow <i style="color: red;" class="fad fa-heart"></i></h4>
+        </a>
+      </center>
+
+    </div>
+  </footer>
+
+
+  <script type="text/JavaScript" src="theme.js"></script>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
